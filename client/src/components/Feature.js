@@ -3,7 +3,7 @@ import requireAuth from "./requireAuth";
 
 class Feature extends Component {
   render() {
-    return <div> this is the feature! </div>;
+    return <div> This is the feature! </div>;
   }
 }
 export default requireAuth(Feature);
